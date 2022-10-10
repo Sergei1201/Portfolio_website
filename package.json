@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
+  "homepage": "https://Sergei1201.github.io/Portfolio_website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Sergei Sokolov",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3"
   }
 }
