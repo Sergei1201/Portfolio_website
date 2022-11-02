@@ -1,7 +1,7 @@
 $primary-color: rgb(24, 23, 23); //or use white to change the current background color
 $secondary-color: blue;
 $show-home-image: true;
-$home-image: url('../../dist/img/background.jpg');   
+$home-image: url('img/background.jpg');       
 $background-opacity: 0.8; 
 
 @mixin ease-out {
